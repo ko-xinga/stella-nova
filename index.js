@@ -127,3 +127,6 @@ function seekUpdate() {
 
 populateDropdown();
 loadTrack(track_index);
+
+const audioPlayer = document.getElementById("music");
+audioPlayer.volume = 0.1;
