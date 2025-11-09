@@ -9,6 +9,14 @@ body {
   background-color: black
 }
 
+a {
+	color:#711347
+}
+
+nav {
+	color:#693b7a
+}
+
 /* Top bar */
 #navbar {
     /* Font */
@@ -28,6 +36,8 @@ body {
 	padding-bottom: 10px;
 	/*border-top-left-radius: 5px;
 	border-top-right-radius: 5px;*/
+	/* Shadow */
+  	box-shadow: 7px 7px #623864;
 }
 
 .article {
@@ -40,13 +50,14 @@ body {
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 40px;
+	margin-top: 30px;
 	box-shadow: black 0px 5px 10px;
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
     letter-spacing:1px;
-
+	/* Shadow */
+  	box-shadow: 7px 7px #623864;
 }
 
 .wiredAnim {
