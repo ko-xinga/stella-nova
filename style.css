@@ -6,7 +6,8 @@
 }
 
 body {
-  background-color: black
+  background-color: black;
+  background-image: url("graphics/starry-black-background.gif");
 }
 
 a {
@@ -15,6 +16,11 @@ a {
 
 nav {
 	color:#693b7a
+}
+
+ul {
+	list-style-position: inside;
+	 text-align: left;
 }
 
 /* Top bar */
