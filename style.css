@@ -1,8 +1,77 @@
+@charset "UTF-8";
+
 @font-face {
-    font-family: 'Body'; /*a name to be used later*/
-    src: url('./font/DIN.ttf'); /*URL to font*/
+    font-family: 'Body'; 
+    src: url('./font/DIN.ttf');
 }
 
 body {
-    font-family: 'Body';
+  background-color: black
+}
+
+/* Top bar */
+#navbar {
+    /* Font */
+	font-family: 'Body';
+    color: aliceblue;
+    /* Background */
+    background-color: #8a68b7;
+    opacity: 95%;
+	background-image: url("/bg-rip-02.gif");
+	width: 800px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	box-shadow: black 0px 5px 10px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*border-top-left-radius: 5px;
+	border-top-right-radius: 5px;*/
+}
+
+.article {
+    /* Font */
+	font-family: 'Body';
+    color: aliceblue;
+    /* Background */
+	width: 800px;
+	background-color: #8a68b7;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	box-shadow: black 0px 5px 10px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+    letter-spacing:1px;
+
+}
+
+.wiredAnim {
+    animation: wiredB 2s ease-in-out infinite;
+}
+
+@keyframes wiredB {
+    25% {
+	    color:#ffffff;
+	    text-shadow:#dea4e6 1px 4px 5px;
+    }
+}
+
+/* Top horizontal rule */
+.hrStyleTop {
+	opacity: 20%;
+	height: 3px;
+	padding-bottom: 1px;
+}
+
+/* Bottom horizontal rule */
+.hrStyleBottom {
+	opacity: 20%;
+	height: 3px;
+	padding-top: 5;
+	
 }
